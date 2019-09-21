@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.anchorinsulation.anchorinsulation.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="15dp"
+        android:textSize="18sp"
+        android:textColor="#000"/>
+
+    <ToggleButton
+        android:id="@+id/spanishBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:textOn="@string/toggle_on"
+        android:textOff="@string/toggle_off"
+        android:background="@drawable/box_filled"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/reportText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spanishBtn"
+        android:text="Please select a report:"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/vBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/reportText"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Vehicle Report"
+        android:textColor="#fff"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/gBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/reportText"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Good Catch"
+        android:textColor="#fff"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/cBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/vBtn"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Cellulose Hazmat"
+        android:textColor="#fff"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/sBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/gBtn"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Spray Foam Hazmat"
+        android:textColor="#fff"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

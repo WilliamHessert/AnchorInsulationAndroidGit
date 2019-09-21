@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anchorinsulation.anchorinsulation.CelluloseActivity">
+
+    <ScrollView
+        android:id="@+id/celluloseView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/celluloseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Name"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/celluloseDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Date"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/celluloseJobName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Job Name"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/celluloseJobNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Job Number"
+                android:inputType="text"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/celluloseCheckbox1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/celluloseQuestion1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/celluloseCheckbox2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/celluloseQuestion2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/celluloseCheckbox3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/celluloseQuestion3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/celluloseCheckbox4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/celluloseQuestion4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/celluloseCheckbox5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/celluloseQuestion5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/celluloseCheckbox6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/celluloseQuestion6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/celluloseCheckbox7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/celluloseQuestion7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/celluloseCheckbox8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/celluloseQuestion8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/celluloseCheckbox9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/celluloseQuestion9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/celluloseCheckbox10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/celluloseQuestion10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/celluloseBtn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/box_filled"
+                android:textColor="#fff"
+                android:text="Submit"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/celluloseProgress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/cAdditionalView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/cAddTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please enter any additional crewmembers who were on the job:"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+
+        <EditText
+            android:id="@+id/cAddEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="8"
+            android:hint="Additional Crewmembers"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            android:gravity="top|start"
+            android:background="@drawable/box"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+
+        <Button
+            android:id="@+id/cAddSubmitBtn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/cAddEditText"
+            android:layout_margin="30dp"
+            android:background="@color/colorPrimary"
+            android:text="Submit"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+</RelativeLayout>

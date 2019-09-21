@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anchorinsulation.anchorinsulation.RegisterActivity">
+
+    <TextView
+        android:id="@+id/registerInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:text="Enter your 10-digit phone number so we can identify you:"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+    <RelativeLayout
+        android:id="@+id/registerPhoneView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/registerInstructions">
+
+        <EditText
+            android:id="@+id/registerPhoneInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/box"
+            android:inputType="phone"
+            android:hint="Phone"
+            android:paddingStart="5dp"/>
+
+        <Button
+            android:id="@+id/registerPhoneBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/box_filled"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/registerPhoneInput"
+            android:text="Enter >"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/registerProgress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/confirmView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/registerInstructions"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/registerInformation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="Full Name\nPosition\nPhone Number"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/box"/>
+
+        <Button
+            android:id="@+id/registerConfirmBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/registerInformation"
+            android:text="Confirm"
+            android:textColor="#fff"
+            android:background="@drawable/box_filled"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/registerRejectBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/registerConfirmBtn"
+            android:text="Not Me"
+            android:textColor="#fff"
+            android:background="@drawable/box_filled" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/registerCreateView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/registerInstructions"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/registerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/box"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="5dp"/>
+
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_below="@id/registerEmail"
+            android:background="@drawable/box"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingStart="5dp"/>
+
+        <EditText
+            android:id="@+id/registerConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_below="@id/registerPassword"
+            android:background="@drawable/box"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingStart="5dp"/>
+
+        <Button
+            android:id="@+id/registerCreateBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:layout_below="@id/registerConfirmPassword"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/box_filled"
+            android:text="Create Account"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+</RelativeLayout>

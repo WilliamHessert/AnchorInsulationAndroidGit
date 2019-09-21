@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anchorinsulation.anchorinsulation.SprayFoamActivity">
+
+    <ScrollView
+        android:id="@+id/sprayfoamView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/sprayfoamName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Name"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/sprayfoamDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Date"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/sprayfoamJobName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Job Name"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/sprayfoamJobNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Job Number"
+                android:inputType="text"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/sprayfoamCheckbox1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/sprayfoamQuestion1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/sprayfoamCheckbox2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/sprayfoamQuestion2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/sprayfoamCheckbox3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/sprayfoamQuestion3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/sprayfoamCheckbox4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/sprayfoamQuestion4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/sprayfoamCheckbox5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/sprayfoamQuestion5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/sprayfoamCheckbox6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/sprayfoamQuestion6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/sprayfoamCheckbox7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/sprayfoamQuestion7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/sprayfoamCheckbox8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/sprayfoamQuestion8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/sprayfoamCheckbox9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/sprayfoamQuestion9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/sprayfoamCheckbox10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/sprayfoamQuestion10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/sprayfoamCheckbox11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/sprayfoamQuestion11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/sprayfoamBtn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/box_filled"
+                android:textColor="#fff"
+                android:text="Submit"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/sprayfoamProgress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/sAdditionalView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/sAddTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please enter any additional crewmembers who were on the job:"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+
+        <EditText
+            android:id="@+id/sAddEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="8"
+            android:hint="Additional Crewmembers"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            android:gravity="top|start"
+            android:background="@drawable/box"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+
+        <Button
+            android:id="@+id/sAddSubmitBtn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/sAddEditText"
+            android:layout_margin="30dp"
+            android:background="@color/colorPrimary"
+            android:text="Submit"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anchorinsulation.anchorinsulation.VehicleActivity">
+
+    <ScrollView
+        android:id="@+id/vehicleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vehicleInstructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_margin="10dp"
+                android:text="@string/vehicle_instructions"
+                android:textColor="#000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/vehicleName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/vehicleDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/vehicleNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                android:hint="Vehicle Number"/>
+
+            <EditText
+                android:id="@+id/vehicleStartingMileage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:hint="Vehicle Starting Mileage"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect1"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect4"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect6"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect8"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect9"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect10"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect11"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect12"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/vehicleInstructions2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/vehicle_instructions2"
+                android:textSize="16sp"
+                android:textColor="#000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect13"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect14"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect15"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect17"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect18"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect19"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect20"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect21"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect22"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect23"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox24"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion24"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect24"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect25"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox26"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion26"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect26"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox27"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion27"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect27"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox28"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion28"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect28"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect29"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/vehicleCheckbox30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/VehicleQuestion30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_margin="20dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:background="@drawable/box_filled"
+                    android:text="@string/vehicle_defect_button"
+                    android:textColor="#fff" 
+                    android:layout_margin="20dp"
+                    android:id="@+id/vehicleDefect30"  />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/vehicleBtn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/box_filled"
+                android:text="Submit"
+                android:textColor="#fff"
+                android:layout_margin="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/vehicleProgress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/endingMileageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/endingMileageInst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Now, at the end of the day, enter your ending mileage:"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+
+        <EditText
+            android:id="@+id/vehicleEndingMileage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:hint="Ending Mileage"
+            android:paddingStart="5dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/submitEndingMileage"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="30dp"
+            android:layout_below="@id/vehicleEndingMileage"
+            android:background="@color/colorPrimary"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

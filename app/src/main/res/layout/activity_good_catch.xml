@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anchorinsulation.anchorinsulation.GoodCatchActivity">
+
+    <ScrollView
+        android:id="@+id/goodcatchView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/goodCatchInstructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_margin="10dp"
+                android:text="@string/good_catch_instructions"
+                android:textColor="#000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/goodcatchName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/goodcatchDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/goodcatchJobName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Job Name"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/goodcatchJobNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Job Number"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/goodcatchTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="6"
+                android:layout_margin="20dp"
+                android:background="@drawable/box"
+                android:hint="Task Observed"
+                android:gravity="top|left"/>
+
+            <EditText
+                android:id="@+id/goodcatchDeficiency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="6"
+                android:layout_margin="20dp"
+                android:background="@drawable/box"
+                android:hint="Deficiency Noted"
+                android:gravity="top|left"
+                android:paddingStart="5dp"/>
+
+            <Button
+                android:id="@+id/goodcatchBtn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Submit"
+                android:textColor="#fff"
+                android:background="@drawable/box_filled"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:paddingStart="5dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/goodcatchProgress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+</RelativeLayout>

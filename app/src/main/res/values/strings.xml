@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Anchor Insulation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="cellulose1">1. PPE- Is all necessary PPE utilized for site access and actual work as per contractor requirements and safety data sheets? Hard hat, safety glasses, safety toed boots, Tyvek, gloves.</string>
+    <string name="cellulose2">2. Emergency Exits- Are primary and secondary exits identified and accessible?</string>
+    <string name="cellulose3">3. Ergonomics- Have crew members spent 5&#8211;10 minutes performing stretching and bending warm up exercises (warming up for work day)?</string>
+    <string name="cellulose4">4. Housekeeping- Is work area clean, free of debris, materials from other trades, with work area easily accessible for insulation?</string>
+    <string name="cellulose5">5. Slips/Trips/Falls- Does work area have railings in place, holes covered and marked, and free of all slip/trip/fall hazards? (Protruding nails, uneven working surface, floor penetrations)</string>
+    <string name="cellulose6">6. Respiratory Protection- Are all components of Supplied Air System verified to be in good working order? Compressor, Air Drier, triple filters within useful life expectancy, hoses in good condition, respirators clean, fit properly, gaskets and valves intact, suspensions functioning, view unobstructed?</string>
+    <string name="cellulose7">7. Materials Handling- Are hoses and materials loaded into spray zone in such a fashion that employees do not over exert themselves?</string>
+    <string name="cellulose8">8. Fall Protection- A) Are balconies, stairwells, lofts, elevator shafts, or any unprotected location over 6’ protected? B) If not, are harnesses, self-retracting devices, anchor straps, and acceptable anchor locations available, planking, or fall hazards otherwise mitigated?</string>
+    <string name="cellulose9">9. Electrical- Are all electrical hazards identified and addressed? GFI utilized, electrical cords removed from water or spilled drinks, bare wires capped or de-energized, work-duty rated cords utilized.</string>
+    <string name="cellulose10">10. Confined Space Entry- There are no work areas that can be identified as a Permit Required Confined Space (T of F). If false, area is to be avoided until properly addressed with Safety Director.</string>
+
+    <string name="spray_foam11">11. Are other trades, public, and property protected from spray foam application? (Premises vacated for 24 hours, poly sheathing protectant installed, 50’ min distance required from spray gun, ventilation in place, negative pressure.</string>
+
+    <string name="good_catch_instructions">A Good Catch is defined as an event or circumstance that has the potential to cause an incident or injury but that did not actually occur due to corrective action and/or timely intervention.</string>
+
+    <string name ="vehicle_instructions">The items on this inspection sheet should be checked twice daily, once at beginning of day, and again at end of day. If you checked an item on this list at both the beginning at the end of the day, please check the checkbox next to it. Only 1 sheet is to be submitted for both inspections. A separate sheet should be filled out for each vehicle driven. These forms are due daily. Press the "Defect" button for any item that needs attention. Any defects/issues should be detailed on the bottom of this sheet.</string>
+    <string name="vehicle1">Visual Inspection for Exterior Damage/Leaks under Vehicle</string>
+    <string name="vehicle2">Oil Level</string>
+    <string name="vehicle3">Washer Fluid Level</string>
+    <string name="vehicle4">Coolant Level</string>
+    <string name="vehicle5">Power Steering Level</string>
+    <string name="vehicle6">Brakes</string>
+    <string name="vehicle7">Brake Lines</string>
+    <string name="vehicle8">Air Compressor (if air brakes)</string>
+    <string name="vehicle9">Chassis</string>
+    <string name="vehicle10">Front Axle</string>
+    <string name="vehicle11">Rear Axle and Springs</string>
+    <string name="vehicle12">Check Highlights (clearance markers)/Signal Lights/4-way Flashes/Tail Lights/Backup Lights</string>
+    <string name="vehicle13">LF</string>
+    <string name="vehicle14">LR in</string>
+    <string name="vehicle15">LR out</string>
+    <string name="vehicle16">RF</string>
+    <string name="vehicle17">RR in</string>
+    <string name="vehicle18">RR out</string>
+    <string name="vehicle19">Check Horn</string>
+    <string name="vehicle20">Check Heater/Defroster</string>
+    <string name="vehicle21">Check Windshield Wipers/Washers</string>
+    <string name="vehicle22">Check Interior Lights</string>
+    <string name="vehicle23">Check Mirrors for Damage and Adjustments</string>
+    <string name="vehicle24">Check Fuel Level</string>
+    <string name="vehicle25">Check Full First Aid Kit on Board</string>
+    <string name="vehicle26">Check Fire Extinguisher on Board with Charged Gauge, Proper Seal and Pin</string>
+    <string name="vehicle27">Check that 3 Reflective Triangles (or Flares) and 2 Wheel Chocks are on Board and Accessible</string>
+    <string name="vehicle28">Check Adequate Tie-Downs/Tie-Down Tracks (must be clean)</string>
+    <string name="vehicle29">Check PPE - Do you have everything you need? (Tyvek Suit, Gloves, Respirator, Filters, Safety Glasses, Hard Hat, etc&#8230;)</string>
+    <string name="vehicle30">As you drive, continually check for any strange smells, sounds, vibrations, or note anything that doesn\'t feel right</string>
+    <string name="vehicle_instructions2">Check Tires for Wear and Pressure:</string>
+    <string name="vehicle_defect_button">Defect</string>
+    <string name="vehicle_defect_text">Remarks/Defects</string>
+    <string name="vehicle_drivers_signature">Driver\'s Signature</string>
+
+    <string name="toggle_off">English</string>
+    <string name="toggle_on">Espa\u0148ol</string>
+
+    <string name="span_cell1">PPE- Es totalmente necesario utilizer el (PPE) equipo de proteccion personal en las zonas de trabajo y recivir las charlas de seguridad por requeirimiento del contratista.</string>
+    <string name="span_cell2">Salidas de Emergencia- Deben estar completamente identificadas las salidas de emergencia antes de empezar toda labor.</string>
+    <string name="span_cell3">Ejercicios de Estiramiento- Todo el personal debe de hacer ejercicios de calentamiento y de estiramiento de 5 a 10 minutos antes de comenzar la actividad laboral</string>
+    <string name="span_cell4">Limpieza- El area de trabajo debe estar limpio, libre de escombros y residuos de materailes para realizer un trabajo Seguro, eficiente y de calidad.</string>
+    <string name="span_cell5">Deslizamientos/Tropezones/Caidas- El area he trabajo debe tener pasamonos, los huecos en el piso deben estar marcados y/o tapados para evitar el riesgo de caidas, resbalones y/o tropezones. (Este incluye tener cuidado con las puntas de los clavos que sobresalen de la superficie)</string>
+    <string name="span_cell6">Protecccion para respirar- Si uisted usa la mascara de proteccion debe asegurarse que este limpia, las valvulas deben estar instaladas corretamente con sus respectivos empaques; el vidrio de tu mascara deve estar limpio para tener una vision clara y los filtros deben cambiarse por lo menos cada 8 horas.</string>
+    <string name="span_cell7">Manejo de los materiales- Todos los materiales deben estar correctamente estivados, si el alto sobrepase la medida de altura de los empleados se debe de utilizer montacargo. Nota- Si son mas de dos niveles de almacenamiento deben utilizer igualmente el montacargas.</string>
+    <string name="span_cell8">Proteccion de Caidas-A. Todos los personas que trabajen en lugares ubicados en los balcones, escaleras, aticos, huecos de ascensor, o cualquier locacion que sobepase olos 6 pies deben de tener proteccion. Tales como, arneses con su respective yoyo, correas de anclaje u otros anclajes aceptables, en andamios se require la utilizacion de pasamanos para evitar el riesgo de caidas.</string>
+    <string name="span_cell9">Precauciones Electricas: Todos los peligros electricos deben estar claramente identifcados con avisos, los sobrantes de cables, cables pelados o cortados deben de evitar tener contacto con el agua.</string>
+    <string name="span_cell10">Areas de Trabajo contaminadas- Evitar ingresar a areas de trabajo no autorizadas, y si es estrictamente neccesario el ingreso, debe ser autorizador por un Director de seguridad de la obra.</string>
+
+    <string name="sVehicle1">Inspección visual de daños y líquidos externos debajo del carro</string>
+    <string name="sVehicle2">Nivel de Aceite</string>
+    <string name="sVehicle3">Líquido de Limpieza</string>
+    <string name="sVehicle4">Refrigerante del Motor</string>
+    <string name="sVehicle5">Dirección Asistida</string>
+    <string name="sVehicle6">Frenos</string>
+    <string name="sVehicle7">Línea de Freno</string>
+    <string name="sVehicle8">Frenos de Aire</string>
+    <string name="sVehicle9">Chasis</string>
+    <string name="sVehicle10">Eje Frontal</string>
+    <string name="sVehicle11">Eje Trasero y Resortes</string>
+    <string name="sVehicle12">Luces altas/luces de señal/ luces intermitentes/ luces traseras del coche/ luces de reversa</string>
+    <string name="sVehicle13">Llanta Frontal Izquierda</string>
+    <string name="sVehicle14">Llanta Trasera Izquierda Interior</string>
+    <string name="sVehicle15">Llanta Trasera Izquierda Exterior</string>
+    <string name="sVehicle16">Llanta Frontal Derecha</string>
+    <string name="sVehicle17">Llanta Trasera Derecha Interior</string>
+    <string name="sVehicle18">Llanta Trasera Derecha Exterior</string>
+    <string name="sVehicle19">Chequeo del Bocina</string>
+    <string name="sVehicle20">Chequeo del Calentador y Dispositivo Anti Hielo</string>
+    <string name="sVehicle21">Escobillas/reserva de líquido para parabrisas</string>
+    <string name="sVehicle22">Chequeo de luces internas</string>
+    <string name="sVehicle23">Chequeo de Espejos por Daños y Ajustes</string>
+    <string name="sVehicle24">Chequeo de Combustible</string>
+    <string name="sVehicle25">Chequeo de Primeros Auxilios en Tablero</string>
+    <string name="sVehicle26">Chequeo del extinguidor de fuego con el calibrador cargado, sellado correctamente con pin</string>
+    <string name="sVehicle27">Chequeo de 3 triángulos de emergencia (o luces de bengalas) y 2 cuñas para ruedas están en el vehículo y accesible</string>
+    <string name="sVehicle28">Chequeo de correa de remolque adecuado y limpio</string>
+    <string name="sVehicle29">¿Tienes todo los que necesitas? (Traje de Tyvek, guantes, respirador, filtros, lentes de protección, casco de seguridad, etc.)</string>
+    <string name="sVehicle30">Mientras que manejas, constantemente chequea por olores, sonidos, vibraciones, o cualquier cosa que no se sienta bien</string>
+
+    <string name="sFoam11">¿Son orta propriedad protectan? (área vacía por 24 horas, protector instalado, etc.)</string>
+
+    <string name="sVehicleInstructions1">Necesitas checar todas las cosas dos veces cada día, al principio y al fin del día. Una forma es necesario por cada día. Debes enviar una forma adicional por cada vehículo. Por favor presionar el botón "Defecto" si una cosa necesita atención</string>
+    <string name="sVehicleInstructions2">Chequo de llantas descaste y presión</string>
+
+    <string name="sGoodCatchInstructions">Una buena captura es un evento o una circunstancia que tiene el poder herir, pero no ocurrió porque de acción correctiva o una intervención.</string>
+</resources>
